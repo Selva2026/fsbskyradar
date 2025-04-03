@@ -3,6 +3,11 @@ import { useNavigate } from "react-router";
 import { LuCalendar, LuChevronDown } from "react-icons/lu"; 
 
 const predefinedCities = [
+    { code: "MAA", name: "CHENNAI(MAA)" },
+    { code: "IXM", name: "MADURAI(IXM)" },
+    { code: "TRZ", name: "TRICHIRAPPALLI(TRZ)" },
+    { code: "BLR", name: "BENGALURU(BLR)" },
+    { code: "DEL", name: "DELHI(DEL)" },
     { code: "JFK", name: "New York (JFK)" },
     { code: "LAX", name: "Los Angeles (LAX)" },
     { code: "ORD", name: "Chicago (ORD)" },
@@ -10,7 +15,9 @@ const predefinedCities = [
     { code: "LHR", name: "London (LHR)" },
     { code: "DXB", name: "Dubai (DXB)" },
     { code: "SIN", name: "Singapore (SIN)" },
-    { code: "FRA", name: "Frankfurt (FRA)" }
+    { code: "FRA", name: "Frankfurt (FRA)" },
+    { code: "HYD", name: "HYDERABAD(DEL)" }
+   
 ];
 
 const SearchFlights = ({ initialSearchData }) => {
