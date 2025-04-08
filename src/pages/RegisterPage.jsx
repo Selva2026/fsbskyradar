@@ -184,7 +184,7 @@ const RegisterPage = () => {
 
             {/* Footer */}
             <footer className="bg-gray-800 text-white text-center py-4 mt-8">
-                <p className="font-pop">© 2025 Skypiea. All rights reserved.</p>
+             
             </footer>
         </div>
     );
