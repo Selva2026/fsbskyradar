@@ -38,7 +38,7 @@ const Footer = () => {
 
 
       <div className="max-w-6xl mx-auto px-6 mt-12 border-t border-gray-700 pt-6 text-center">
-        <p className="text-gray-500 text-base">All rights reserved</p>
+      
       </div>
     </footer>
   );
