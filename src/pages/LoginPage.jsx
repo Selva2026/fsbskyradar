@@ -155,7 +155,7 @@ const LoginPage = () => {
       </div>
 
       <footer className="bg-gray-800 text-white text-center py-4 mt-8 font-pop">
-        <p>© 2025 Skypiea. All rights reserved.</p>
+       
       </footer>
     </div>
   );
